@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "eklasewrapper": "^0.1.4",
+    "expo": "^54.0.21",
+    "expo-notifications": "^0.32.12",
+    "express": "^5.1.0",
+    "openai": "^6.8.1",
+    "puppeteer-core": "^24.28.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/puppeteer": "^5.4.7",
+    "@types/react": "^19.2.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
